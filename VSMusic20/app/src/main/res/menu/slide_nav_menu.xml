@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_to_songs"
+            android:icon="@mipmap/my"
+            android:title="@string/to_songs"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_to_opern"
+            android:icon="@mipmap/my_works_on"
+            android:title="@string/to_opern" />
+        <item
+            android:id="@+id/nav_match_song"
+            android:icon="@mipmap/dislike"
+            android:title="@string/match_song" />
+
+    </group>
+
+    <group android:id="@+id/group_other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_likes"
+            android:icon="@mipmap/music_circle_on"
+            android:title="@string/my_likes" />
+
+        <item
+            android:id="@+id/nav_my_friends"
+            android:icon="@mipmap/arround"
+            android:title="@string/my_friends" />
+
+        <item
+            android:id="@+id/nav_arround"
+            android:icon="@mipmap/message"
+            android:title="@string/arround" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_my_info"
+            android:icon="@mipmap/settings"
+            android:title="@string/my_info" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings"
+            android:title="@string/settings" />
+
+    </group>
+</menu>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.36"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+    android:background="@drawable/shape_white_frame">
+
+        <ImageView
+            android:id="@+id/vw_song_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/vw_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="歌曲名"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_above="@+id/vw_favour"
+            android:layout_alignStart="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView11"
+            android:text="曲：" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView15"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/vw_song_logo"
+            android:text="词：" />
+
+        <TextView
+            android:id="@+id/vw_song_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_alignEnd="@+id/vw_song_name"
+            android:text="用户" />
+
+    <TextView
+        android:id="@+id/vw_lyric_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignStart="@+id/vw_song_creator"
+        android:text="用户" />
+
+        <TextView
+            android:id="@+id/vw_favour_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/vw_favour" />
+
+        <ImageButton
+            android:id="@+id/vw_favour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@mipmap/dislike" />
+
+    </RelativeLayout>
+
+

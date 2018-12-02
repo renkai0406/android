@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.axone.vsmusic.activity.CircleActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/main_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:tabIndicatorHeight="0dp"
+                app:tabPaddingEnd="30dp"
+                app:tabPaddingStart="30dp"
+                app:tabSelectedTextColor="#24936E"
+                app:tabTextColor="#B5B6B6"
+                android:background="@mipmap/bg_tabs">
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_songs" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_opern" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/match_song" />
+            </android.support.design.widget.TabLayout>
+
+            <ImageView
+                android:id="@+id/main_topSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/search" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.17"
+        />
+
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <TextView
+            android:id="@+id/txt_music1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_music"
+            android:gravity="center"
+            android:text="音乐圈"
+            android:textColor="@drawable/tab_menu_music_text" />
+
+        <TextView
+            android:id="@+id/txt_work1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_work"
+            android:gravity="center"
+            android:text="我的乐曲"
+            android:textColor="@drawable/tab_menu_work_text" />
+
+        <TextView
+            android:id="@+id/txt_tosong1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_tosong"
+            android:gravity="center"
+            android:text="填词成曲"
+            android:textColor="@drawable/tab_menu_tosong_text"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    -->
+
+
+
+</LinearLayout>

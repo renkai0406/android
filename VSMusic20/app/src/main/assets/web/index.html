@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Music</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+
+<!--<link rel="stylesheet" href="resource://gre/res/TopLevelVideoDocument.css">
+<link rel="stylesheet" href="chrome://global/skin/media/TopLevelVideoDocument.css">-->
+<script type="text/javascript" src="chrome://global/content/TopLevelVideoDocument.js"></script>
+
+<script type="text/javascript" src="http://www.sucaihuo.com/Public/js/other/jquery.js"></script>
+<script src="a.js"></script>
+
+</head>
+<body style="background:url(back2.jpg) no-repeat;background-size: 100%;">
+<div style="display:table;width:300px;height:500px;margin:0 auto;">
+	<div align="center" style="display:table-cell; vertical-align:middle;">
+		<img id="img" src="play_tag.jpg" style="width:200px; height:200px; position:relative; top:-20px;"/>
+		<video id="myVideo" webkit-playsinline="true" autoplay="" controls="" src="http://ws.stream.qqmusic.qq.com/108709929.m4a?fromtag=46" style="position:relative; height: 40px; width: 100%; top:30px;"></video>
+	</div>
+</div>
+
+<script>
+var angle = 0;
+setInterval(function() {
+angle += 3;
+$("#img").rotate(angle);
+}, 50);
+</script>
+</body>
+</html>
