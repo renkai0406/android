@@ -1,15 +1,16 @@
 package com.renkai.vmodel;
 
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 
 public class BriefMsgModel implements IViewModel {
-    private Bitmap head;
+    private int head;
     private String name;
     private String msg;
     private String time;
     private boolean notifing;
 
-    public BriefMsgModel(Bitmap head, String name, String msg, String time, boolean notifing) {
+    public BriefMsgModel(int head, String name, String msg, String time, boolean notifing) {
         this.head = head;
         this.name = name;
         this.msg = msg;
@@ -17,7 +18,7 @@ public class BriefMsgModel implements IViewModel {
         this.notifing = notifing;
     }
 
-    public Bitmap getHead() {
+    public int getHead() {
         return head;
     }
 

@@ -4,5 +4,5 @@ import com.renkai.vmodel.IViewModel;
 
 public interface IView {
 
-    public void setModel(IViewModel model);
+    public void setModel(IViewModel md);
 }

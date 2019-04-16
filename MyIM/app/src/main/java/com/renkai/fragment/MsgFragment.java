@@ -31,15 +31,15 @@ public class MsgFragment extends Fragment {
         LinearLayout scroll = view.findViewById(R.id.vp_main_msg_scroll);
 
         BriefMsgView child1 = new BriefMsgView(getContext(), null);
-        child1.setModel(new BriefMsgModel(null, "张三", "hi", "15:31", true));
+        child1.setModel(new BriefMsgModel(R.mipmap.headicon1, "张三", "hi", "13:31", true));
         scroll.addView(child1);
 
         BriefMsgView child2 = new BriefMsgView(getContext(), null);
-        child2.setModel(new BriefMsgModel(null, "张二", "hi hi", "12:08", true));
+        child2.setModel(new BriefMsgModel(R.mipmap.headicon2, "张二", "hi hi", "12:08", true));
         scroll.addView(child2);
 
         BriefMsgView child3 = new BriefMsgView(getContext(), null);
-        child3.setModel(new BriefMsgModel(null, "王五", "hi hi hi", "昨天", false));
+        child3.setModel(new BriefMsgModel(R.mipmap.headicon3, "王五", "hi hi hi", "昨天", false));
         scroll.addView(child3);
     }
 }

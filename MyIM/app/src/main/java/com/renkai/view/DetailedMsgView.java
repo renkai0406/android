@@ -1,7 +1,8 @@
 package com.renkai.view;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
@@ -17,20 +18,23 @@ public class DetailedMsgView extends LinearLayout implements IView {
     private TextView detailMsg;
     private ImageView detailHead;
     private ImageView detailBg;
+    private DetailedMsgModel model;
 
     public DetailedMsgView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        LayoutInflater.from(context).inflate(R.layout.view_detailed_msg, this);
+        LayoutInflater.from(context).inflate(R.layout.view_detailed_msg_item, this);
 
         this.detailMsg = findViewById(R.id.detailmsg_msg);
         this.detailHead = findViewById(R.id.detailmsg_head);
     }
 
     @Override
-    public void setModel(IViewModel model) {
-        DetailedMsgModel dm = (DetailedMsgModel)model;
-        this.detailMsg.setText(dm.getMsg());
-        this.detailHead.setImageBitmap(dm.getHead());
+    public void setModel(IViewModel md) {
+        this.model = (DetailedMsgModel)md;
+        this.detailMsg.setText(this.model.getMsg());
+        Drawable headPic = getResources().getDrawable(this.model.getHead());
+        if(headPic != null)
+            this.detailHead.setImageDrawable(headPic);
     }
 }
