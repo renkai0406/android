@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8428eb5c-efab-45c4-82cc-3e2113b668c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/renkai/start/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/chat/ChatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/fragment/FriendFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/fragment/MsgFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/fragment/OtherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/login/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/login/LoginTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/main/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/start/StartActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/view/BriefMsgView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/view/DetailedMsgView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/view/FriendItemView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/view/IView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/vmodel/BriefMsgModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/vmodel/DetailedMsgModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/vmodel/FriendItemModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/renkai/vmodel/IViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_dashboard_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_chat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_start.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/view_brief_msg_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/view_detailed_msg_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/view_friend_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/viewpager_main_friend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/viewpager_main_msg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/viewpager_main_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/menu/navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/headicon0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/headicon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/headicon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/headicon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/attrs_brief_msg_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/renkai/start/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/libs/jsoup-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Bach__Invention_No._13.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Bach__Minuet_in_G_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Bach__Musette_in_D_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Bach__Prelude_in_C_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Beethoven__Fur_Elise.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Beethoven__Minuet_in_G_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Beethoven__Moonlight_Sonata.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Beethoven__Sonata_Pathetique_2nd_Mov.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Bizet__Habanera_from_Carmen.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Borodin__Polovstian_Dance.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Brahms__Hungarian_Dance_No._5.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Brahms__Waltz_No._15_in_A-flat_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Brahms__Waltz_No._9_in_D_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Minute_Waltz_Op._64_No._1_in_D-flat_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Nocturne_Op._9_No._1_in_B-flat_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Nocturne_Op._9_No._2_in_E-flat_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Nocturne_in_C_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Prelude_Op._28_No._20_in_C_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Prelude_Op._28_No._4_in_E_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Prelude_Op._28_No._6_in_B_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Prelude_Op._28_No._7_in_A_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Chopin__Waltz_Op._64_No._2_in_Csharp_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Clementi__Sonatina_Op._36_No._1.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Easy_Songs__Brahms_Lullaby.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Easy_Songs__Greensleeves.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Easy_Songs__Jingle_Bells.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Easy_Songs__Silent_Night.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Easy_Songs__Twinkle_Twinkle_Little_Star.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Field__Nocturne_in_B-flat_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Grieg__Canon_Op._38_No._8.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Grieg__Peer_Gynt_Morning.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Handel__Sarabande_in_D_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Liadov__Prelude_Op._11_in_B_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/MacDowelll__To_a_Wild_Rose.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Massenet__Elegy_in_E_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mendelssohn__Venetian_Boat_Song_Op._19b_No._6.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mendelssohn__Wedding_March.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Aria_from_Don_Giovanni.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Eine_Kleine_Nachtmusik.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Fantasy_No._3_in_D_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Minuet_from_Don_Juan.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Rondo_Alla_Turca.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Mozart__Sonata_K.545_in_C_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Offenbach__Barcarolle_from_The_Tales_of_Hoffmann.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Pachelbel__Canon_in_D_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Prokofiev__Peter_and_the_Wolf.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Puccini__O_Mio_Babbino_Caro.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Rebikov__Valse_Melancolique_Op._2_No._3.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Saint-Saens__The_Swan.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Satie__Gnossienne_No._1.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Satie__Gymnopedie_No._1.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schubert__Impromptu_Op._90_No._4_in_A-flat_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schubert__Moment_Musicaux_No._1_in_C_major.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schubert__Moment_Musicaux_No._3_in_F_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schubert__Serenade_in_D_minor.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schumann__Scenes_From_Childhood_Op._15_No._12.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Schumann__The_Happy_Farmer.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Strauss__The_Blue_Danube_Waltz.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Album_for_the_Young_-_Old_French_Song.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Album_for_the_Young_-_Polka.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Album_for_the_Young_-_Waltz.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Nutcracker_-_Dance_of_the_Reed_Flutes.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Nutcracker_-_Dance_of_the_Sugar_Plum_Fairies.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Nutcracker_-_March_of_the_Toy_Soldiers.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Nutcracker_-_Waltz_of_the_Flowers.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Tchaikovsky__Swan_Lake.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/Verdi__La_Donna_e_Mobile.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/blue_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/midi_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/playback_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/web/a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/web/back2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/assets/web/play_tag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/CircleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/LoadingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/OpernChooseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/OpernSheetActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/PlayingCreatedActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/RegisterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/SlideActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/StartActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/activity/WebMusicActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/data/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/CreateSongFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/FavourFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/FriendFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/MatchMusicFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/NearMusicFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/OpernFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/parent/MainFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/fragment/parent/OtherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/function/MyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/function/TabDispose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/listener/FavourOnClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/listener/FriendMoreClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/listener/LastHistoryClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/listener/SlideMenuListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/log/AxoneLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/log/AxoneLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Accid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/AccidSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/AllSongsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/BarSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/BlankSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ChordSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Clef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ClefMeasures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ClefSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ColorChangedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ColorDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ColorPreference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Complex1D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ComplexDoubleFFT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ComplexDoubleFFT_Mixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/DictInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/FileBrowserActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/FileUri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/FrequencyAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/HelpActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/IconArrayAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/KeySignature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ListInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/LyricSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiFileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiNote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MidiTrack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/MusicSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/NoteData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/NoteDuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/NoteScale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Piano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT_Even.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT_Even_Odd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT_Mixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT_Odd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RealDoubleFFT_Odd_Odd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RecentSongsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/RestSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ScrollAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/ScrollAnimationListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/SettingsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/SheetMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/SoundRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/SoundTone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Stem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/SymbolWidths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/TimeSigSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/TimeSignature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/WhiteNote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/opern/WindowType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/socket/MyClientSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/CreateTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/GetFavoursTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/GetFriendsTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/GetSongTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/LoginTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/MatchMusicTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/PlayingTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/task/RegisterTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/translation/Translation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/translation/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/CreateModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/CreateModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/FavouriteModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/FavouriteModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/FileModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/FriendModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/FriendModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/InfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/RegisterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/SongModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/transmodel/SongModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/util/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/util/MessagePool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/util/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/util/UtilFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/view/FavourView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/java/com/axone/vsmusic/view/FriendView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/allfilesicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/bass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/browsefilesicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/directoryicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/eight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/fastforward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/four.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/friend_frame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/main_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/menu_refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/nine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/notepair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/recentfilesicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/rewind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/shape_white_frame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/six.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_music.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_music_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_tosong.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_tosong_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_work.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/tab_menu_work_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/transparent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/treble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/twelve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/drawable/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_loading.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_opern_choose.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_playing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_slide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_start.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/activity_web_music.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/layout_toolbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_choose_song.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_choose_song_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_color_preference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_file_browser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_help.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/opern_saveimages_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/slide_nav_head.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/view_favour.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/view_friend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_createsong.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_favours.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_matchmusic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_myfriends.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_mymusic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_myworks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_nearmusic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_opern.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_parent_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/layout/viewpager_parent_other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/menu/opern_sheet_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/menu/slide_nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/bg_all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/bg_createsong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/bg_matchmusic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/bg_opern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/bg_tabs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/button_album.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/button_choose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/button_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/login_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/login_nobutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/page_indicator_focused.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/page_indicator_unfocused.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/play_tag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/welcome_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/welcome_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xhdpi/welcome_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/arround.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/back2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/button_pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/button_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/dislike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/music_circle_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/music_circle_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/my_works_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/my_works_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/paly_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/to_songs_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/tosongs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxhdpi/write.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VSMusic20/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/translation/Translation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/CreateModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/FavouriteModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/FileModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/FriendModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/InfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/RegisterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/axone/vsmusic/transmodel/SongModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/baidu/translate/HttpGet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/baidu/translate/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/baidu/translate/TransApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/api/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/file/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/log/AxoneLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/log/AxoneLogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/main/MainServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/CreateInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/FavouriteInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/FriendInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/LastHistoryInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/LoginInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/SongInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/repertory/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/socket/FileServerSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/socket/MyServerSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/sql/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/sql/SqlBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/test/ClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/translation/InfoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/translation/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/util/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/util/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VisualMusicServer/src/com/renkai/util/Util.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/renkai/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IMServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renkai" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.renkai.Main" />
+      <module name="IMServer" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8428eb5c-efab-45c4-82cc-3e2113b668c2" name="Default Changelist" comment="" />
+      <created>1556810834825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556810834825</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/renkai/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
